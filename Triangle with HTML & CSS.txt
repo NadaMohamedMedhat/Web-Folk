@@ -1,0 +1,16 @@
+how to make triangle in HTML & CSS?
+
+In HTML: 
+
+<div class="smalltriangle"></div>
+
+In CSS:
+.smalltriangle {
+         width: 0;
+         height: 0;
+         border-left: 15px solid transparent;
+         border-right: 15px solid transparent;
+         border-top: 30px solid rgb(255, 0, 106);
+         margin-left: 48%;
+         position: absolute;
+     }
