@@ -64,6 +64,7 @@ a:hover {
     font-size: 20px;
     font-family: 'Tajawal', sans-serif;
     height: 4em;
+    margin-bottom :0px;
 }
 
 .smalltriangle {
@@ -72,9 +73,9 @@ a:hover {
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
     border-top: 30px solid #ff0048;
-    position: absolute;
-    margin-top: -20px;
+    margin-top: 0px;
     margin-left: 6em;
+    position: absolute;
 }
 
 #triangle {
@@ -85,8 +86,15 @@ a:hover {
 
 /* Images Part*/
 
-.images {
-    column-gap: 0;
+.col-lg{
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.images{
+    padding : 0px;
 }
 
 .website {
